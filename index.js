@@ -24,6 +24,7 @@ const SHEET_ID = '1S6d6SAIxUDRATlG17KcOV0CJ3ngl_yO81Qi0TlNdvXA';
 const SHEET_NAME = 'Feuille 1';
 
 // ✉️ Resend config
+const { Resend } = require('resend');
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 // 🔧 MCP Tools

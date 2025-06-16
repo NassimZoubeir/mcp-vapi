@@ -2,3 +2,4 @@ node_modules/
 cle-service.json
 cle-encoded.txt
 mcp-server.js
+.env

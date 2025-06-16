@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
@@ -22,7 +24,7 @@ const SHEET_ID = '1S6d6SAIxUDRATlG17KcOV0CJ3ngl_yO81Qi0TlNdvXA';
 const SHEET_NAME = 'Feuille 1';
 
 // ✉️ Resend config
-const resend = new Resend('re_VGJyiVrT_8F11ACxpxPwaU3WDVjxoBDb3');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 // 🔧 MCP Tools
 app.get('/tools', (req, res) => {

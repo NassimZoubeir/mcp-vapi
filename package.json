@@ -1,0 +1,19 @@
+{
+  "name": "mcp-vapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "express": "^5.1.0",
+    "googleapis": "^149.0.0",
+    "resend": "^4.5.2"
+  }
+}
